@@ -1,0 +1,6 @@
+- name: Build Docker image
+  run: docker build -t ankitga79/nodejs-cicd-demo .
+
+- name: Push to DockerHub
+  run: docker push ankitga79/nodejs-cicd-demo
+
